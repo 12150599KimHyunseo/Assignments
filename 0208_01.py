@@ -1,5 +1,5 @@
-class Graph():
-    def __init__(self,size):
+class Graph:
+    def __init__(self, size):
         self.size = size
         self.graph = [[0 for _ in range(size)] for _ in range(size)]
 
@@ -25,11 +25,11 @@ visited_ary = []
 
 g_size = 5
 G1 = Graph(g_size)
-G1.graph[GS25][CU] = 1; G1.graph[GS25][seven_ELEVEN] = 1;
-G1.graph[seven_ELEVEN][GS25] = 1; G1.graph[seven_ELEVEN][CU] = 1; G1.graph[seven_ELEVEN][MINI_STOP] = 1;
-G1.graph[CU][GS25] = 1; G1.graph[CU][seven_ELEVEN] = 1; G1.graph[CU][MINI_STOP] = 1;
-G1.graph[MINI_STOP][seven_ELEVEN] = 1; G1.graph[MINI_STOP][CU] = 1; G1.graph[MINI_STOP][Emart24] = 1;
-G1.graph[Emart24][MINI_STOP] = 1;
+G1.graph[GS25][CU] = 1; G1.graph[GS25][seven_ELEVEN] = 1
+G1.graph[seven_ELEVEN][GS25] = 1; G1.graph[seven_ELEVEN][CU] = 1; G1.graph[seven_ELEVEN][MINI_STOP] = 1
+G1.graph[CU][GS25] = 1; G1.graph[CU][seven_ELEVEN] = 1; G1.graph[CU][MINI_STOP] = 1
+G1.graph[MINI_STOP][seven_ELEVEN] = 1; G1.graph[MINI_STOP][CU] = 1; G1.graph[MINI_STOP][Emart24] = 1
+G1.graph[Emart24][MINI_STOP] = 1
 
 print('## 편의점 그래프 ##')
 print_graph(G1)
